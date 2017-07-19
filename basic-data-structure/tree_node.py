@@ -3,6 +3,7 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 
+
 class Traversal(object):
     def __init__(self):
         self.traverse_path = list()
@@ -18,7 +19,6 @@ class Traversal(object):
             self.inorder(root.left)
             self.traverse_path.append(root.val)
             self.inorder(root.right)
-
 
     def postorder(self, root):
         if root:
