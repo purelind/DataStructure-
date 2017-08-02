@@ -28,6 +28,8 @@ class Merge:
             else:  # 右半边当前元素大于或等于左半边当前元素（取左半边的元素）
                 alist[k] = blist[i]
                 i += 1
+
+# 时间复杂度为 O(NlogN), 使用了等长的辅助数组，空间复杂度为 O(N)
 unsortedArray = [6, 5, 3, 1, 8, 7, 2, 4]
 merge_sort = Merge()
 merge_sort.mergeSort(unsortedArray)
