@@ -12,5 +12,6 @@ class Solution(object):
                 left += 1
         return left
 
+
 solve = Solution()
 print(solve.removeElement([3, 2, 2, 3], 3))
