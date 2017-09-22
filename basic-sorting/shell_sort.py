@@ -3,7 +3,6 @@ def shell_sort(alist):    # 将alist按升序排列
     h = 1
     while h < alength//3:  # h序列的初始值
         h = 3*h + 1
-
     while h >= 1:
         print(h)
         print(alist)
